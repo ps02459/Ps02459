@@ -1,5 +1,5 @@
 ﻿Public Class frmMain
-
+    'form Main viphps02459
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         Me.Hide()
         frmLogin.Show()
@@ -22,5 +22,9 @@
         Else
             lblVaitro.Text = "Nhân viên"
         End If
+    End Sub
+
+    Private Sub btpLogo_Click(sender As Object, e As EventArgs) Handles btpLogo.Click
+
     End Sub
 End Class
